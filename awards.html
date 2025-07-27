@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="MICA 2024 focuses on both theory and applications in the broad areas of advanced computing and intelligent engineering.">
+    <meta name="viewport" content="width=device-width, initial-scale=0.3">
+
+    <title>MICA 2024</title>
+    <style>
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 4px;
+                /* Adjust as needed */
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .marquee img {
+                height: 120px;
+                width: auto;
+            }
+        }
+
+        /* Add more media queries and styles as needed */
+    </style>
+    <link rel="icon" type=image/png href="images/common/icacie1.png" />
+    <link href="../../netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/crawler.js"></script>
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
+    <script type="text/javascript" src="js/tpl/header.js"></script>
+    <script type="text/javascript" src="js/tpl/right.js"></script>
+    <script type="text/javascript" src="js/tpl/footer.js"></script>
+
+    <script>
+        $(function () {
+            $("#rslides").responsiveSlides({
+                speed: 800
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        marqueeInit({
+            uniqueid: 'mycrawler',
+            inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+            mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+            moveatleast: 1,
+            neutral: 150,
+            persist: true,
+            savedirection: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("div.preview li").show();
+            var previewImg = $("img#main");
+            $("a:first").addClass("active");
+            $("div.preview li a img").mouseover(function () {
+                var link = $(this).parent();
+                var linkHref = link.attr("href");
+                var linkAlt = "ICACIE 2016";
+                if ($(link).hasClass("active") == false) {
+                    $(previewImg).animate({
+                        opacity: 0.8,
+                    }, 300, function () {
+                        previewImg.attr("src", linkHref);
+                        previewImg.attr("alt", linkAlt);
+                        $(this).animate({
+                            opacity: 1,
+                        }, 300);
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body class="index">
+    <div class="main">
+        <!--    NEW SLIDER   ---------    -->
+        <!--<div class="sldiv">-->
+        <!--    <ul id="rslides">-->
+        <!--        <li><img src="images/slider/01.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/02.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/03.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/04.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/05.jpg" alt="MICA 2024"></li>-->
+        <!--    </ul>-->
+        <!--</div>-->
+        <!---    NEW SLIDER CODE ENDS   -- -->
+
+        <div class="container">
+            <div class="left">
+                <div class="section">
+
+                    <h2 class="title"><strong class="line"><span style="color:red">MICA Awards</span></strong></h2><br>
+                    <p>To be Updated!
+                    </p><br>
+
+                </div>
+                <hr class="hl" />
+
+                &nbsp;
+
+                <script>
+                    function blinker() {
+                        $('.blinking').fadeOut(500);
+                        $('.blinking').fadeIn(500);
+                    }
+                    setInterval(blinker, 1000);
+                </script>
+</body>
+
+</html>

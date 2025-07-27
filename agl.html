@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="MICA  focuses on both theory and applications in the broad areas of advanced computing and intelligent engineering.">
+    <meta name="viewport" content="width=device-width, initial-scale=0.3">
+
+    <title>MICA 2025</title>
+    <style>
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 4px;
+                /* Adjust as needed */
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .marquee img {
+                height: 120px;
+                width: auto;
+            }
+        }
+
+        /* Add more media queries and styles as needed */
+    </style>
+    <link rel="icon" type=image/png href="images/common/MICA1.png" />
+    <link href="../../netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/crawler.js"></script>
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
+    <script type="text/javascript" src="js/tpl/header.js"></script>
+    <script type="text/javascript" src="js/tpl/right.js"></script>
+    <script type="text/javascript" src="js/tpl/footer.js"></script>
+
+    <script>
+        $(function () {
+            $("#rslides").responsiveSlides({
+                speed: 800
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        marqueeInit({
+            uniqueid: 'mycrawler',
+            inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+            mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+            moveatleast: 1,
+            neutral: 150,
+            persist: true,
+            savedirection: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("div.preview li").show();
+            var previewImg = $("img#main");
+            $("a:first").addClass("active");
+            $("div.preview li a img").mouseover(function () {
+                var link = $(this).parent();
+                var linkHref = link.attr("href");
+                var linkAlt = "MICA 2016";
+                if ($(link).hasClass("active") == false) {
+                    $(previewImg).animate({
+                        opacity: 0.8,
+                    }, 300, function () {
+                        previewImg.attr("src", linkHref);
+                        previewImg.attr("alt", linkAlt);
+                        $(this).animate({
+                            opacity: 1,
+                        }, 300);
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body class="index">
+    <div class="main">
+        <!--    NEW SLIDER   ---------    -->
+        <!--<div class="sldiv">-->
+        <!--    <ul id="rslides">-->
+        <!--        <li><img src="images/slider/01.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/02.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/03.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/04.jpg" alt="MICA 2024"></li>-->
+        <!--        <li><img src="images/slider/05.jpg" alt="MICA 2024"></li>-->
+        <!--    </ul>-->
+        <!--</div>-->
+        <!---    NEW SLIDER CODE ENDS   -- -->
+
+        <div class="container">
+            <div class="left">
+                <div class="section">
+
+                    <h2 class="title"><strong class="line"><span style="color:red">Authors Guidlines</span></strong>
+                    </h2><br>
+                    <br>
+                    <p><b style="color: rgb(122, 24, 24);">Step A: Manuscript Preparation</b>
+                        <br><br><small>
+
+                            1. The manuscript should be prepared in Springer LNCS format using MS WORD and/or LaTeX. The guidelines given here may
+                            help you to prepare the manuscript. Preferable format of manuscript is through LaTeX. These
+                            templates and guidelines can also be found in publisher’s homepage (link) by clicking on
+                            'Instructions for Authors' section.
+                            <br><br>
+                            2. The figures / graphs / plots in the manuscript MUST be of good resolution (600 dpi or
+                            more),
+                            tables MUST NOT be in pictorial format. Text in figures should not be too small, and
+                            preferably of equal size as text of the article.
+                            <br><br>
+                            3. Figures, text, or the tables MUST be visible within boundary of the text area of the page
+                            and MUST NOT go beyond it.
+                            <br><br>
+                            4. Do NOT use any Social / Academic titles (e.g. Mr.,Ms.,Dr.,Prof. etc) preceding the author
+                            names. Do NOT mention the position of a person (e.g., research scholar, student, assistant
+                            professor, professor, IEEE member, IEEE student member etc.) in the affiliation.
+                            <br><br>
+                            5. Mention full address, affiliation, and email of ALL authors, specify a corresponding
+                            author
+                            with the corresponding e-mail ID. [Once an article is accepted, the publisher will send the
+                            proofreading of article to this e-mail]
+                            <br><br>
+                            6. Do not make any page numbering and do not give any running head title.
+                            <br><br>
+                            7. Every article must bear a self-composed independent single paragraph as Abstract, which
+                            MUST
+                            NOT bear any citation or reference. Abstract MUST not have a section number.
+                            <br><br>
+                            8. Articles must be written in spell checked and grammatically correct English.
+                            <br><br>
+                            9. All references, figures, and tables should be numbered in sequence starting from 1 and
+                            MUST
+                            be duly cited / referred within the text.
+                            <br><br>
+                            10. Adhere to page size (A4 : 8.27″X11.69″), page margin size (top:2.05″, bottom:2.05″,
+                            left/inside: 1.73″, right/outside: 1.73″), line spacing ( ‘single’ ), and font style (
+                            ‘Times’ ), font sizes (Title: 14pt – bold, Abstract: 9 pt, Keywords: 9 pt, Section header :
+                            12 pt – bold, Subsection header: 10 pt – bold, Table and figure caption: 10 pt – bold, Text
+                            body: 10 pt) as prescribed in Springer LNCS template, do not manually alter ANY of these
+                            parameters.
+                            <br><br>
+                            11. verify the referencing style of LNCS, which will help to produce correct reference
+                            format. A
+                            reference should bear following parameters in proper format: author name(s), title of
+                            article/book, conference/journal name, volume, issue, page numbers, and publication year.
+                            <br><br>
+                            12. Any article, not in format, will be subjected to rejection without any judgment on its
+                            quality.
+                            <br><br>
+                            13. The articles should be own work of the authors. If any work is referred from others (or
+                            some
+                            other work by the author), proper acknowledgement should be given. Plagiarism of any type,
+                            if detected, will lead to rejection of the articles anytime.
+                            <br><br></small>
+                        <br>
+
+
+                        <b style="color: rgb(122, 24, 24);">Step B: Submitting for Review</b>
+                        <br><br><small>
+                            1. Follow the link here and submit your article with properly mentioning article title,
+                            authors
+                            names and other details that will be asked..
+                            <br><br>
+                            2. Create / sign up for an Easychair account if you do not have one.
+                            <br><br>
+                            3. Fill proper metadata of the article in Easychair as they exist in your article. Title,
+                            Abstract, Keywords, list of authors (in order) and their affiliation should be mentioned in
+                            Easychair while submitting.
+                            <br><br>
+                            4. You will be assigned an unique article ID of your submitted article, which you should
+                            remember and use for any correspondence.
+                            <br><br>
+                            5. Page size of an article should not exceed 12 in any case. Desired page size is 08 – 10.
+                            <br><br>
+                            6. You need not upload editable source files (.doc or .docx or LaTeX files) for review.
+                            Submit
+                            single PDF files only. If your article is selected, you will later be asked for the source
+                            files.
+                            <br><br>
+                            7. Review decision will be e-mailed to authors.
+                            <br><br>
+                            8. No offline submission request through e-mail or surface mail will be entertained. Offline
+                            submissions will lead to outright rejection without any review or validating the quality of
+                            the article.
+                            <br><br>
+                            Note: DO NOT submit multiple copies of same article, which will cause rejection. Any
+                            revision / uploading a new version / updating author information can be done on a submission
+                            through Easychair.
+                        </small><br><br>
+                        <b style="color: rgb(122, 24, 24);">Step C: After Acceptance</b>
+                        <small><br><br>
+                            1. Preparing and uploading of the Camera Ready Article: <br>
+
+                            The final camera-ready copy of the papers must be in Springer LNCS format with a length of
+                            maximum 12 pages. Over-length charges will apply for each extra page beyond 10 pages.
+                            However, it is desired that maximum number of pages in an article should not exceed 12 pages
+                            in any circumstance. Check Step A: Manuscript preparation above for formatting the camera
+                            ready article. Upload camera-ready PDF on to the Easychair, and submit source file(s) along
+                            with items mentioned in Section e (below) as .zip or .rar file.
+                            <br><br>
+                            2. Paying Registration Fee: <br>
+
+                            Calculate the registration fee according to your page length and type of authorship as
+                            directed in REGISTRATION page and make payment using Foreign Telegraphic Transfer or Direct
+                            Transfer or NEFT Transfer or Wire transfer (preferable) or demand draft. Do not forget to
+                            keep the pay-in-slip or Challan or online payment receipt. You need the scanned copy of it
+                            or scan of the DD to complete next steps.
+                            <br><br>
+                             
+                            
+                            3. Filling up of the Registration Form, which can be found in MS WORD format [<a href="/pdfs/Registration-Form-MICA 2024.docx">here</a>].                            <br><br>
+                            4. Filling up of the Consent to Publish Form, which can be found in publisher's web page
+                            
+                            <br><br>
+                            5. Mailing the following items in .zip / .rar format to micaconf@gmail.com:
+
+                            a) The Camera ready Article source files, preferably in MS Word format
+                            <br>
+                            b) Scanned copy of filled in Registration Form.
+                            <br>
+                            c) Scanned copy of filled in Consent to Publish Form.
+                            <br>
+                            d) Proof of studentship for availing Student Registration (if
+                            applicable) signed by head of the department/course
+                            coordinator/registrar/director/principal.
+                            <br>
+                            e) Scan of registration fee pay-in-slip/voucher of online transfer/DD payable to MICA (
+                            whichever applicable ).
+                            <br>
+                            The mail must bear the subject line as: “Registration of article MICA2025-XXX”.
+
+                            (A SINGLE MAIL must bear all items below. If size exceeds 20 MB, break the mail into more
+                            than one. Append to subject line of the mails: Part 1, Part 2 etc. Multiple mails without
+                            size limitation will not be considered.)
+                            <br><br>
+                            6. Submission of original demand draft by above mentioned registration deadlines. YOU NEED
+                            NOT
+                            POST ANYTHING IF YOU HAVE NOT MADE PAYMENT USING DEMAND DRAFT. MICA will not be
+                            responsible for any postal delay or failure in receiving the documents by the deadlines.</b>
+                    </p></small>
+
+                </div>
+                <hr class="hl" />
+
+                &nbsp;
+
+                <script>
+                    function blinker() {
+                        $('.blinking').fadeOut(500);
+                        $('.blinking').fadeIn(500);
+                    }
+                    setInterval(blinker, 1000);
+                </script>
+</body>
+
+</html>
