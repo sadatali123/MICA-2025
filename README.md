@@ -47,6 +47,17 @@ Speaker Profiles & Schedule Viewer
 A passionate Full Stack Developer from India(🇮🇳).
 I love building scalable and accessible web applications.
 
+
+
+🔗 Demo & Screenshots
+
+
+🌍 Live Demo: <a href="https://mica.net.in/">MICA 2025 <i class="ri-arrow-right-up-line"></i>
+<a/>
+
+
+📸 Screenshots
+
   <div>
    Home Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="Home Page" width="400"/>
 
