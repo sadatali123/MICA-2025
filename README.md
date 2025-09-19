@@ -5,12 +5,16 @@
     </a>
   <br />
 <div />
+
+<div align="start">
+
 # MICA 2O25 Official Website
 An International Conference on
 Advanced Communications and Machine Intelligence
 
 ## 📌 Overview
 This is the official website for **MICA 2025**, built to provide a seamless experience for participants, researchers, keynote speakers, and organizers. The site features real-time updates, conference schedules, paper submission portals, and essential information about the event.
+
 ## Appendix
 Built with HTML, CSS, JavaScript
 
@@ -59,15 +63,15 @@ I love building scalable and accessible web applications.
 📸 Screenshots
 
   <div>
-   Home Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="Home Page" width="400"/>
+   Home Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="Home Page"/>
 
-   About Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233711.png" alt="About Page" width="400"/>
+   About Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233711.png" alt="About Page"/>
 
-   Past Speakers → <img src=".\images\screenshots\Screenshot 2025-09-19 233747.png" alt="Past Speakers" width="400"/>
+   Past Speakers → <img src=".\images\screenshots\Screenshot 2025-09-19 233747.png" alt="Past Speakers"/>
 
-   Registration Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233727.png" alt="Registration Page" width="400"/>
+   Registration Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233727.png" alt="Registration Page"/>
 
-   Travel Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233806.png" alt="Travel Page" width="400"/>
+   Travel Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233806.png" alt="Travel Page"/>
 
   
   </div>
