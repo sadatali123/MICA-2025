@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a>
-      <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="" width="400">
+      <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="">
     </a>
   <br />
 <div />
