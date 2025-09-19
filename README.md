@@ -1,4 +1,10 @@
-
+<div align="center">
+  <br />
+    <a>
+      <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="" width="400">
+    </a>
+  <br />
+<div />
 # MICA 2O25 Official Website
 An International Conference on
 Advanced Communications and Machine Intelligence
@@ -37,11 +43,23 @@ Speaker Profiles & Schedule Viewer
 
 
 ## 🚀 About Me
-A passionate Full Stack Developer from India 🇮🇳.
+# Hi, I'm Sadat! 👋
+A passionate Full Stack Developer from India(🇮🇳).
 I love building scalable and accessible web applications.
 
+  <div>
+   Home Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233641.png" alt="Home Page" width="400"/>
 
-# Hi, I'm Sadat! 👋
+   About Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233711.png" alt="About Page" width="400"/>
+
+   Past Speakers → <img src=".\images\screenshots\Screenshot 2025-09-19 233747.png" alt="Past Speakers" width="400"/>
+
+   Registration Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233727.png" alt="Registration Page" width="400"/>
+
+   Travel Page → <img src=".\images\screenshots\Screenshot 2025-09-19 233806.png" alt="Travel Page" width="400"/>
+
+  
+  </div>
 
 
 ## 🔗 Links
